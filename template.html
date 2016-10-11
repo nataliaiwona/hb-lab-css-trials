@@ -3,21 +3,23 @@
 <head>
     <style>
         
-        #top-bar {
+        #left-bar {
+            display: inline-block;
             background-color: red;
-            width: 350px;
+            width: 400px;
             height: 200px;
         }
 
-        #bottom-bar {
+        #right-bar {
+            display: inline-block;
             background-color: blue;
-            width: 350px;
+            width: 400px;
             height: 200px;
         }
 
         div.black-box {
             display: inline-block;
-            margin: 50px 0px 50px 50px;
+            margin: 50px 0px 0px 65px;
             background-color: black;
             width: 100px;
             height: 100px;
@@ -30,11 +32,10 @@
     </style>
 </head>
 <body>
-    <div id="top-bar">
+    <div id="left-bar">
         <div class="black-box"></div>
         <div class="black-box"></div>
-    </div>
-    <div id="bottom-bar">
+    </div><div id="right-bar">
         <div class="black-box"></div>
         <div class="black-box"></div>
     </div>
