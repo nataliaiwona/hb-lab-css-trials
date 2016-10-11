@@ -2,43 +2,89 @@
 <html>
 <head>
     <style>
+        h1 {
+            font-family: sans-serif;
+        }
         
-        #left-bar {
-            display: inline-block;
-            background-color: red;
-            width: 400px;
-            height: 200px;
+        div.bar {
+            width: 600px;
+            height: 130px;
+            background-color: #555555;
+            margin-bottom: 10px;
         }
 
-        #right-bar {
+        div.top-bar-box {
             display: inline-block;
-            background-color: blue;
-            width: 400px;
-            height: 200px;
+            margin: 6px;
+            background-color: #cccccc;
+            width: 192px;
+            height: 118px;
         }
 
-        div.black-box {
+        div.top-mid-bar-box {
             display: inline-block;
-            margin: 50px 0px 0px 65px;
-            background-color: black;
-            width: 100px;
+            margin: 6px 0;
+            background-color: #cccccc;
+            width: 192px;
+            height: 118px;
+        }
+
+        div.long-box {
+            vertical-align: bottom;
+            display: inline-block;
+            margin: 6px 6px;
+            background-color: #cccccc;
+            width: 142px;
             height: 100px;
         }
 
-        body {
-            margin: 0;
+        div.short-box {
+            vertical-align: top;
+            display: inline-block;
+            margin: 6px 0;
+            background-color: #cccccc;
+            width: 142px;
+            height: 75px;
+        }
+
+        div.left-box {
+            vertical-align: top;
+            display: inline-block;
+            margin: 6px 6px 0 6px;
+            background-color: #cccccc;
+            width: 291px;
+            height: 35px;
+        }
+
+        div.right-box {
+            vertical-align: bottom;
+            display: inline-block;
+            margin: 6px 0;
+            background-color: #cccccc;
+            width: 291px;
+            height: 118px;
         }
 
     </style>
 </head>
 <body>
-    <div id="left-bar">
-        <div class="black-box"></div>
-        <div class="black-box"></div>
-    </div><div id="right-bar">
-        <div class="black-box"></div>
-        <div class="black-box"></div>
+    <h1>AAAAAHHHHHH</h1>
+    <div class="bar">
+        <div class="top-bar-box"></div><!--
+     --><div class="top-mid-bar-box"></div><!--
+     --><div class="top-bar-box"></div>
     </div>
-    
+    <div class="bar">
+        <div class="long-box"></div><!--
+     --><div class="short-box"></div><!--
+     --><div class="long-box"></div><!--
+     --><div class="short-box"></div>
+    </div>
+    <div class="bar">
+        <div class="left-box"></div><!--
+     --><div class="right-box"></div>
+    </div>
+
+
 </body>
 </html>
